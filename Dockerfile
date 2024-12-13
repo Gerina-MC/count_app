@@ -16,8 +16,8 @@ COPY . /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Expose port 8000 for the app to be accessible
-EXPOSE 8000
+# Expose port 8080 for the app to be accessible
+EXPOSE 8080
 
 # Run the app using Gunicorn with 4 threads (default port 8000)
-CMD ["gunicorn", "--threads", "4", "-b", "0.0.0.0:8000", "app:app"]
+CMD ["gunicorn", "--threads", "4", "-b", "0.0.0.0:8080", "app:app"]
