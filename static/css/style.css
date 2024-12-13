@@ -1,0 +1,56 @@
+body {
+    font-family: "Poppins",sans-serif;
+    background-color: rgb(233, 172, 226);
+    
+}
+
+.navbar {
+    background-color: rgb(227, 117, 214);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:disabled {
+    background-color: rgb(226, 227, 228);
+}
+
+.countButtons {
+    width: 55px;
+    height: 55px;
+}
+
+#startButton {
+    background-color: rgb(112, 211, 121);
+}
+
+#startButton:disabled {
+    background-color: rgb(226, 227, 228);
+}
+
+#stopButton {
+    background-color: rgb(90, 181, 239);
+}
+
+#stopButton:disabled {
+    background-color: rgb(226, 227, 228);
+}
+
+#resetButton {
+    background-color: rgb(240, 102, 102);
+}
+
+#resetButton:disabled {
+    background-color: rgb(226, 227, 228);
+}
+
+#output {
+    font-size: 10rem;
+    text-align: center;
+    display: inline-block;
+}
